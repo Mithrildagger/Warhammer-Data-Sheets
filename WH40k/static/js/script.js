@@ -12,7 +12,6 @@ import { populateSpecialRuleSelect, addSpecialRule } from './unitForm.js';
 
 
 
-
 document.addEventListener('DOMContentLoaded', () => {
 
     const addUnitButton = document.getElementById('addUnitButton');

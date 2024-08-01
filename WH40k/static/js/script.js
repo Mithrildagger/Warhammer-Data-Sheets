@@ -1,6 +1,6 @@
 //importing necessary files
 import { specialRulesDictionary, weaponSpecialRulesDictionary } from './specialRulesDictionary.js';
-// import { deathleaper, intercessor, defaultUnitData } from './testUnits.js';
+import { deathleaper, intercessor, defaultUnitData } from './testUnits.js';
 import { displayUnitDetails } from './displayUnitDetails.js'; // Import the function
 import { initializeAlbumModal, handleAlbumFormSubmission, closeModalOnOutsideClick, showAlbumOptions, addToAlbum, filterUnitsByAlbum, albumNames, albumUnits } from './albums.js';
 import { setupStrategyEventListeners} from './strategies.js';
@@ -42,9 +42,9 @@ document.addEventListener('DOMContentLoaded', () => {
 
 
     //adding default units to test features
-    // addUnitToContainer(defaultUnitData);
-    // addUnitToContainer(deathleaper);
-    // addUnitToContainer(intercessor);
+    addUnitToContainer(defaultUnitData);
+    addUnitToContainer(deathleaper);
+    addUnitToContainer(intercessor);
 
 
 
